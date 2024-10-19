@@ -31,7 +31,7 @@ function App() {
         <div className='flex items-center mb-5'>
           <h1 className='ml-[12%] text-[24px]'>Users</h1>
           <h3 className='ml-[30%] text-[24px]'>Posts</h3>
-          <h2 className='ml-[27%] text-[24px]'>Comments</h2>
+          <h2 className='ml-[28%] text-[24px]'>Comments</h2>
         </div>
         <div className='flex items-center gap-10'>
           <ul className='w-[400px] border-[3px] border-slate-700 ml-[20px] h-[90vh] rounded-lg bg-slate-300 p-3 gap-5 flex flex-col overflow-y-auto shadow-lg'>
@@ -47,7 +47,7 @@ function App() {
                 </li>
               ))}
           </ul>
-          <ul className='w-[400px] border-[3px] border-slate-700 ml-[20px] h-[90vh] rounded-lg bg-slate-300 p-2 gap-5 flex flex-col overflow-y-auto shadow-lg'>
+          <ul className='w-[400px] border-[3px] border-slate-650 ml-[20px] h-[90vh] rounded-lg bg-slate-300 p-2 gap-5 flex flex-col overflow-y-auto shadow-lg'>
               {posts.map(item => (
                   <li key={item.id} className='bg-white mx-auto bg-antiquewhite w-[370px] p-2 rounded-md shadow-lg hover:scale-[1.05] duration-300'> 
                     <div className='p-1 flex flex-col gap-3 '>
