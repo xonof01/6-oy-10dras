@@ -62,16 +62,7 @@ function App() {
           </ul>
           <ul className='w-[400px] border-[3px] border-slate-700 ml-[20px] h-[90vh] rounded-lg bg-slate-300 p-3 gap-5 flex flex-col overflow-y-auto shadow-lg'>
               {comments.map(item => (
-                  <li key={item.id} className='bg-white mx-auto bg-antiquewhite w-[370px] p-3 rounded-md shadow-lg hover:scale-[1.05] duration-300'> 
-                    <div className='p-1 flex flex-col gap-3'>
-                        <strong><strong>Id: </strong>{item.id}</strong>
-                        <strong><strong>PostId: </strong>{item.PostId}</strong>
-                        <h2><strong>Name: </strong>{item.name}</h2>
-                        <p><strong>Email: </strong>{item.email}</p>
-                        <p><strong>Body:</strong>{item.body}</p>
-                        <button className='w-full font-semibold bg-green-600 text-white py-[10px] block mt-2 hover:opacity-[60%] rounded-md'>SHow Posts</button>
-                    </div>
-                </li>
+     
               ))}
           </ul>
         </div>
